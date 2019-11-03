@@ -1,7 +1,10 @@
-Install and configuration
+# Install and configuration of developement envoirement
+## Clone Kirby Repo
 1. go to github and "import repository" (see icon "+" in the header on the right
 2. copy/past kirby plainkit repo url and name the new repo
 3. open "GitKraken" and clone repo from GitHub account
+
+## Download, load CSS and install packages for SASS
 4. create assets folder in project folder 
 5. Download bulma-start npm package from
 https://github.com/jgthms/bulma-start/releases/download/0.0.3/bulma-start-0.0.3.zip
@@ -9,3 +12,9 @@ https://github.com/jgthms/bulma-start/releases/download/0.0.3/bulma-start-0.0.3.
 7. open terminal and move to assets folder
 8. run in terminal: npm install
 9. run in terminal: npm start
+
+## Install and activate BrowserSync
+10. open new terminal and move to project folder
+11. run in terminal: npm install browser-sync --save-dev
+12. start MAMP and apache server
+13. run in terminal: browser-sync start --proxy "http://localhost:8888" --files "**/*"
