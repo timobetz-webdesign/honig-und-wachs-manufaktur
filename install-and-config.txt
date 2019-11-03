@@ -2,7 +2,10 @@ Install and configuration
 1. go to github and "import repository" (see icon "+" in the header on the right
 2. copy/past kirby plainkit repo url and name the new repo
 3. open "GitKraken" and clone repo from GitHub account
-4. open terminal and go to project directory (e.g. /Applications/MAMP/htdocs/project-name/)
-5. run: npm install bulma-start
-6. start MAMP and start server
-7. 
+4. create assets folder in project folder 
+5. Download bulma-start npm package from
+https://github.com/jgthms/bulma-start/releases/download/0.0.3/bulma-start-0.0.3.zip
+6. unzip and copy files/folders into assets folder 
+7. open terminal and move to assets folder
+8. run in terminal: npm install
+9. run in terminal: npm start
